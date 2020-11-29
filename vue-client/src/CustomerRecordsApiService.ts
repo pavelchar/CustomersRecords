@@ -2,7 +2,7 @@ import Vue from "vue";
 import axios from "axios";
 
 const ajax = axios.create({
-  baseURL: "http://localhost:5000/api/DeptsApi",
+  baseURL: "http://localhost:5001/api/Customers",
   // responseType: "json",
   // headers: {
   //     'Content-Type': 'application/json',
@@ -10,7 +10,7 @@ const ajax = axios.create({
   // }
   headers: {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    // "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
   },
 });
 ajax.interceptors.request.use(

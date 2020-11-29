@@ -67,7 +67,7 @@ const store = new Vuex.Store({
   actions: {
     async getAllRecords(context: ActionContext<AppState, any>) {
       // original api call
-      //await ajax.get("/");
+      // await ajax.get("/");
       return Promise.resolve(context.state.customers);
     },
     async createRecord(context: ActionContext<AppState, any>, data: ICustomerRecord) {
