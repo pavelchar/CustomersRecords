@@ -23,5 +23,5 @@ please, make sure you have installed all dependencies, Sqlite local database wit
 - Due to some connectivity issues with backend, client uses hardcoded data set **customers** which normally would come as an API response.
 - Also in real project I would:
   - Add Vue-Router for navigating between views
-  - Expand list view with some additional functionality - filter, sorting, search, etc.
+  - Expand some list view functionality - filter, sorting, search, etc.
   - Implement loading on scrolling or pagination
