@@ -16,7 +16,7 @@ In the "AspNetCore" directory run:
 
 ### `dotnet run`
 
-please, make sure you have installed all dependencies
+please, make sure you have installed all dependencies, Sqlite local database with **testdb** database and **Customers** table. Update **ConnectionStrings** inside **appsettings.json** file with your local path to DB.
 
 ### Some notes:
 
